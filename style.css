@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #777777;
+    height: auto;
+}
+
+.container,
+.container-skills {
+    width: 1200px;
+    margin: auto;
+    overflow: auto;
+}
+
+.clr {
+    clear: both;
+}
+
+.btn {
+    background-color: #f3487f;
+    padding: 13px 50px;
+    border: 0;
+    outline: none;
+    border: 1px solid tan;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    color: whitesmoke;
+    font-weight: 700;
+    margin: 30px;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading h2 {
+    color: #222;
+    font-weight: 1000;
+    font-size: 30px;
+    line-height: 45px;
+}
+
+.heading p {
+    color: #777;
+    font-weight: 500;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+
+
+/* start custom nav */
+
+nav {
+    width: 100%;
+    height: auto;
+    z-index: 2;
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+}
+
+nav .logo {
+    float: left;
+    width: 75%;
+}
+
+nav .logo img {
+    width: 15%;
+    padding: 11px 0px;
+}
+
+nav .list-menu {
+    float: left;
+    width: 25%;
+}
+
+.list-menu ul li {
+    float: left;
+    list-style: none;
+    padding: 16px 18px;
+}
+
+.list-menu ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: snow;
+}
+
+.list-menu ul li a:hover {
+    color: tomato;
+}
+
+
+/* end nav */
+
+
+/* Start Header */
+
+header {
+    background-image: url("/img/banner-bg.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+header .over-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(132, 96, 246, 0.7);
+}
+
+header .header-info {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    top: 29%;
+    left: 25%;
+    width: 50%;
+}
+
+header .header-info h1 {
+    font-size: 60px;
+    margin: 0 0 20px;
+    line-height: 72px;
+    font-weight: 100;
+    font-style: normal;
+}
+
+header .header-info p {
+    font-size: 16px;
+    margin: 0 0 20px;
+    line-height: 21px;
+    font-weight: bolder;
+    font-style: normal;
+}
+
+
+/* End Header */
+
+
+/* Start History */
+
+.History {
+    background-color: #f2f5f7;
+    padding: 70px 0px;
+    overflow: auto;
+}
+
+.history-desc {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin: auto;
+}
+
+.History .history-desc {
+    width: 100%;
+    height: 450px;
+    background-color: white;
+}
+
+.History .history-img {
+    float: left;
+    width: 33.33333%;
+}
+
+.History .history-img img {
+    margin: -20px 0px 5px 20px;
+}
+
+.History .history-info {
+    width: 60%;
+    float: left;
+}
+
+.History .history-info .list-btn .btn:first-child {
+    padding: 12px 25px;
+    border: 1px solid darkgray;
+    color: cornsilk;
+    font-weight: 200;
+    font-size: 12px;
+    background-color: #8460F6;
+    cursor: pointer;
+}
+
+.History .history-info .list-btn .btn:not(:first-of-type) {
+    padding: 12px 25px;
+    border: 1px solid darkgray;
+    color: black;
+    font-weight: 200;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.History .history-info .list-btn {
+    margin-top: 40px;
+}
+
+.History .history-info .list-btn .btn:hover {
+    background-color: #8460F6;
+    cursor: pointer;
+    color: cornsilk;
+}
+
+.history-info h3 {
+    font-size: 20PX;
+    line-height: 30PX;
+    color: #222;
+}
+
+.history-info h3,
+.history-info p {
+    padding-left: 35px;
+    padding-top: 10px;
+}
+
+
+/* End History */
+
+
+/* Start skills  */
+
+.skills {
+    width: 100%;
+    height: 520px;
+    background-color: #f3487f;
+    text-align: center;
+}
+
+.container-skills .skill-info {
+    width: 25%;
+    background-color: white;
+    float: left;
+    height: 260px;
+    overflow: hidden;
+}
+
+.skill-icon {
+    text-align: center;
+    width: 100%;
+    height: 260px;
+}
+
+.skill-icon:hover {
+    background-color: #f3487f;
+    color: #fffd;
+}
+
+.skills .skill-info .skill-icon i {
+    font-size: 35px;
+    color: crimson;
+    font-weight: 300;
+    margin: 15px;
+}
+
+.skills .skill-info .skill-icon p {
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+}
+
+.skill-desc {
+    background-color: #6F7598;
+    width: 100%;
+    height: 100%;
+    color: white;
+    float: left;
+}
+
+.skill-desc,
+.skill-icon {
+    padding-top: 80px;
+}
+
+.skill-info .skill-icon:hover p,
+.skill-info .skill-icon:hover i {
+    color: white;
+}
+
+
+/* End skills  */
+
+
+/* Start Experiences */
+
+.Experiences {
+    padding: 100px 0;
+    width: 100%;
+}
+
+.Vector {
+    width: 100%;
+    height: 70%;
+    margin: auto;
+    overflow: auto;
+}
+
+.Vector-info {
+    float: left;
+}
+
+.Vector-img {
+    width: 33.3333%;
+}
+
+.Vector-img img {
+    padding-right: 20px;
+    height: 400px;
+    height: 380px;
+}
+
+.Vector-details {
+    margin: 40px 0px 0px 80px;
+}
+
+.Vector-details h2 {
+    font-weight: 900;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.Vector-details h2,
+.Vector-details h5,
+.Vector-details p {
+    margin-bottom: 15px;
+    color: black;
+}
+
+.Vector-details .btn {
+    color: #8460F6;
+    cursor: pointer;
+    border: solid 0.3px darkgray;
+    padding: 15px 25px;
+}
+
+.Vector-details .btn:hover {
+    color: cornsilk;
+    background-color: #8460F6;
+}
+
+
+/* End Experiences */
+
+
+/* Start Projects */
+
+.Projects {
+    width: 100%;
+    height: 450px;
+    background-color: #5dd1e3;
+    padding: 100px 0px;
+}
+
+.Projects .heading h2,
+.Projects .heading p {
+    color: white;
+}
+
+.info-project {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: auto;
+}
+
+.img-project {
+    width: 65%;
+}
+
+.desc-project {
+    width: 30%;
+    /* padding: 50px 5px 0px 25px; */
+}
+
+.img-project,
+.desc-project {
+    float: left;
+    height: 300px;
+}
+
+.img-project img {
+    width: 100%;
+    height: 100%;
+}
+
+.desc-project h3,
+.desc-project p {
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+
+/* End Projects */
+
+
+/* Start Keep */
+
+.Keep {
+    padding: 100px 0;
+}
+
+.Keep form {
+    overflow: auto;
+    margin: auto;
+    width: 75%;
+}
+
+.Keep form input {
+    float: left;
+    width: 42%;
+    padding: 10px 10px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border: 2px solid #eee;
+    outline-color: #cc185157;
+}
+
+.Keep form textarea {
+    min-width: 800px;
+    max-width: 800px;
+    min-height: 150px;
+    max-height: 150px;
+    float: left;
+    padding: 10px 10px;
+    border: 2px solid #eee;
+    outline-color: #cc185157;
+}
+
+.Keep form button.btn {
+    float: right;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.Keep form button.btn:hover {
+    background-color: #8460F6;
+    color: black;
+}
+
+
+/* End Keep */
+
+
+/* **** Strat subscription ***** */
+
+.subscription {
+    background-color: #f9c400;
+    padding: 120px 0px;
+}
+
+.subscription .head {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.subscription .head h2 {
+    color: white;
+    font-size: 35px;
+    line-height: 1.5em;
+    font-weight: bolder !important;
+    padding-bottom: 40px;
+}
+
+.subscription .head form {
+    position: relative;
+    overflow: hidden;
+}
+
+.subscription .head form input {
+    width: 85%;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    height: 21px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.subscription .head form .btn {
+    position: absolute;
+    bottom: -28px;
+    right: 0;
+    padding: 10px 18px;
+    z-index: 55;
+    cursor: pointer;
+    background-color: white;
+    color: #8460F6;
+    transition: 0.5s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.subscription .head form .btn:hover {
+    background-color: #8460F6;
+    color: white;
+    padding: 10px 30px;
+}
+
+
+/* **** End subscription ***** */
+
+
+/* **** Strat Footer ***** */
+
+footer {
+    background-color: #4e5375;
+    padding: 100px 0px 45px;
+    overflow: auto;
+    height: auto;
+}
+
+footer .footer-list {
+    float: left;
+    width: 25%;
+}
+
+footer .footer-list h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer .footer-list ul {
+    list-style: none;
+}
+
+footer .footer-list ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-weight: 500;
+}
+
+footer .footer-list ul li a:hover {
+    color: #f9c400;
+}
+
+.footer-img img {
+    cursor: pointer;
+}
+
+.second-footer a {
+    text-decoration: none;
+    color: yellow;
+    font-weight: 600;
+    font-size: small;
+}
+
+.second-footer p {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    padding-top: 25px;
+}
+
+
+/* **** End Footer ***** */
